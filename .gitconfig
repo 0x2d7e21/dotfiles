@@ -1,0 +1,18 @@
+[user]
+	name = 0x2d7e21
+	email = 0x2d7e21@gmail.com
+[core]
+	autocrlf = input
+	safecrlf = true
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=local
+  type = cat-file -t
+  dump = cat-file -p
+[credential]
+	helper = cache --timeout=3600
+[color]
+        ui = true
