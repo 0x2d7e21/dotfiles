@@ -123,14 +123,15 @@ alias gc='git commit -m'
 alias gp='git pull && git push'
 alias gull='git pull'
 alias gush='git push'
-alias gitview="export PS1='`__git_ps1 "%s"` \w \$ '"
-alias bashview="export PS1='${debian_chroot:+($debian_chroot)}\[\033[1;32m\]\u@\h\[\e[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ ' "
+
 alias install='sudo apt-get install'
 alias update='sudo apt-get update'
 alias upgrade='sudo apt-get upgrade'
 alias autoremove='sudo apt-get autoremove'
+alias autoclean='sudo apt-get autoclean'
 alias remove='sudo apt-get remove'
 alias addrep='sudo add-apt-repository'
+alias purge='sudo apt-get purge'
 
 # setup color variables
 color_is_on=
